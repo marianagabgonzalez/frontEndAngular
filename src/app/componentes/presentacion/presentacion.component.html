@@ -1,0 +1,26 @@
+<div class="container-fluid" id="aboutMe">
+<div class="imagen">
+    <img [src]="miPortfolio.about.img" class="rounded mx-auto d-block" width="30%" alt="...">
+  </div>
+
+    <div class="container d-flex align-items-center flex-column" id="presentacion">
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase">{{miPortfolio.about.nameTitulo}}</h1>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-dark">{{miPortfolio.about.descripTitulo}}</p>
+    </div>
+    
+    <div class="container d-flex align-items-center flex-column" id="sobreMi">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading text-uppercase">{{miPortfolio.about.aboutTitle}}</h1>
+      </div>
+
+    <div class="row">
+      <div class="col-lg-4 ms-auto">
+        <p class="lead">{{miPortfolio.about.parrafo1}}</p>
+      </div>
+      <div class="col-lg-4 me-auto">
+        <p class="lead">{{miPortfolio.about.parrafo2}}</p>
+      </div>
+    </div>
+  </div>

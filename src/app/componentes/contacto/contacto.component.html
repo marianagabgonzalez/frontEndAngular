@@ -1,0 +1,40 @@
+<div class="container-fluid d-flex align-items-center flex-column" id="contacto">
+    <h4 class="masthead-heading text-uppercase text-secondary mb-0">{{miPortfolio.form.titleForm}}</h4>
+</div>
+
+<div class="container-fluid" id="contact">
+<div class="row justify-content-center m-0">
+<div class="col-lg-5 col-xl-7">
+<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+<!-- Name input-->
+<div class="form-floating mb-3">
+  <input class="form-control" id="name" type="text" placeholder="Nombre completo" data-sb-validations="required" data-sb-can-submit="no">
+  <label for="name">{{miPortfolio.form.nombre}}</label>
+  <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es requerido.</div>
+</div>
+<!-- Email address input-->
+<div class="form-floating mb-3">
+  <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
+  <label for="email">{{miPortfolio.form.email}}</label>
+  <div class="invalid-feedback" data-sb-feedback="email:required">El email es requerido.</div>
+  <div class="invalid-feedback" data-sb-feedback="email:email">El email no es valido.</div>
+</div>
+<!-- Phone number input-->
+<div class="form-floating mb-3">
+  <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" data-sb-can-submit="no">
+  <label for="phone">{{miPortfolio.form.tel}}</label>
+  <div class="invalid-feedback" data-sb-feedback="phone:required">El teléfono es requerido.</div>
+</div>
+<!-- Message input-->
+<div class="form-floating mb-3">
+  <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+  <label for="message">{{miPortfolio.form.mensaje}}</label>
+  <div class="invalid-feedback" data-sb-feedback="message:required">El mensaje es requerido.</div>
+</div>
+
+<!-- Submit Button-->
+<button type="submit" class="btn btn-danger">{{miPortfolio.form.button}}</button>
+</form>
+</div>
+</div>
+</div>

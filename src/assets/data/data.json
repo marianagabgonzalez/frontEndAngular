@@ -1,0 +1,48 @@
+
+    {"name": "MARIANA GONZÁLEZ",
+    "itemsNavbar": [
+      {
+         "title": "Sobre mí",
+         "link": "#presentacion"
+      },
+      {
+         "title": "Portfolio",
+         "link": "#portfolio"
+      },
+      {
+         "title": "Contacto",
+         "link": "#contacto"
+      }
+    ]
+    ,
+    "about": {
+      "img":"./../assets/20220511_115639.jpg",
+      "nameTitulo": "Mariana González",
+      "descripTitulo": "Programadora Web Full Stack",
+      "aboutTitle": "SOBRE MÍ",
+      "parrafo1": "Me presento como una persona ágil, empática y orientada al logro de resultados. Además, cuento con capacidad para la resolución de conflictos, la comunicación efectiva, el aprendizaje continuo y la gestión del tiempo.",
+      "parrafo2": "Me encuentro en búsqueda de un nuevo desafío laboral en donde pueda poner en práctica los conocimientos adquiridos a lo largo de mi formación, con el objetivo de continuar desarrollando mis habilidades y adquirir mayor experiencia en el área IT."
+    },
+    "portfolioImagenes": {
+      "titulo":"Portfolio",
+      "img1":"./../assets/cabin.png",
+      "img2":"./../assets/cake.png",
+      "img3":"./../assets/circus.png",
+      "img4":"./../assets/game.png",
+      "img5":"./../assets/safe.png",
+      "img6":"./../assets/submarine.png"
+    },
+    "form": {
+      "titleForm":"CONTACTAME",
+      "nombre": "Nombre completo",
+      "email": "Email",
+      "tel": "Teléfono de contacto",
+      "mensaje": "Mensaje",
+      "button": "Enviar"
+    },
+    "footer": {
+      "copyright": "© 2023 Copyright:",
+      "nameCopy": "Mariana González"
+    }
+
+   }
