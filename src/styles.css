@@ -29,7 +29,7 @@ padding-left: 1rem;
 }
 
 nav.navbar.navbar-expand-lg {
-    background-color: #f1396d;
+    background: linear-gradient(to right, rgb(58,41,105), 80%, rgb(222, 192, 255));
 }
 
 a.navbar-brand {
@@ -77,6 +77,10 @@ h4 {
 #portfolio, #presentacion, #aboutMe  {
     background-color: #f3ffeb; 
     padding-bottom: 1em;
+}
+
+#presentacion {
+    background-image: ;
 }
 
 #sobreMi {

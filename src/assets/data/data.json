@@ -1,17 +1,17 @@
 
-    {"name": "MARIANA GONZÁLEZ",
+    {"name": "./../assets/logoap.png",
     "itemsNavbar": [
       {
-         "title": "Sobre mí",
-         "link": "#presentacion"
+         "img":"./../assets/logoLi.png",
+         "link": "https://www.linkedin.com/in/marianagabgonzalez/"
       },
       {
-         "title": "Portfolio",
-         "link": "#portfolio"
+         "img":"./../assets/logoGit.png",
+         "link":"https://github.com/marianagabgonzalez"
       },
       {
-         "title": "Contacto",
-         "link": "#contacto"
+         "img":"./../assets/botonLogin.png",
+         "link":" "
       }
     ]
     ,
@@ -23,6 +23,41 @@
       "parrafo1": "Me presento como una persona ágil, empática y orientada al logro de resultados. Además, cuento con capacidad para la resolución de conflictos, la comunicación efectiva, el aprendizaje continuo y la gestión del tiempo.",
       "parrafo2": "Me encuentro en búsqueda de un nuevo desafío laboral en donde pueda poner en práctica los conocimientos adquiridos a lo largo de mi formación, con el objetivo de continuar desarrollando mis habilidades y adquirir mayor experiencia en el área IT."
     },
+    "educacion": [
+{
+  "instituto": "Argentina Programa",
+  "tituloObt": "Programadora Web Full Stack",
+  "año": "2022 - 2023"
+  
+},
+{
+  "instituto": "Codo a Codo",
+"tituloObt": "Programadora JavaScript - Node JS",
+"año": "2022 - 2022"
+},
+{
+  "instituto": "Civet",
+  "tituloObt": "Metodologías Ágiles",
+  "año": "2022 - 2022"
+},
+{
+  "instituto": "Egg",
+  "tituloObt": "Programadora Web Full Stack - Java",
+  "año": "2021 - 2022"
+}
+    ],
+    "experienciaLaboral": [
+      {
+      "lugar": "Osecac",
+      "puesto": "Administrativa",
+      "fecha": "Enero 2013 - Julio 2020"
+      },
+      {
+        "lugar": "Mc Donald's",
+      "puesto": "Cajera",
+      "fecha": "Enero 2010 - Noviembre 2012"
+      }
+    ],
     "portfolioImagenes": {
       "titulo":"Portfolio",
       "img1":"./../assets/cabin.png",

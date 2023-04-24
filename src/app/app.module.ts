@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
-import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { PortfolioService } from './servicios/portfolio.service';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { SkillsComponent } from './componentes/skills/skills.component'
 
 @NgModule({
   declarations: [
@@ -17,8 +19,10 @@ import { HttpClientModule } from '@angular/common/http'
     EncabezadoComponent,
     PresentacionComponent,
     PortfolioComponent,
-    ContactoComponent,
     FooterComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,
