@@ -58,6 +58,11 @@ h4.h4 {
     color:black;
     text-align: center;
 }
+h5.card-title {
+    font-weight: bold;
+    padding-bottom:1em;
+    color:black;
+}
 
 p.lead {
     font-size:medium;
@@ -102,6 +107,10 @@ h4 {
     background: linear-gradient(to right, rgb(58,41,105), 80%, rgb(222, 192, 255));
     color:white;
 }
+ p.card-text {
+    margin: 0;
+
+}
 
 @media (max-width: 576px) {
    div.imagen {
@@ -113,9 +122,16 @@ h4 {
 font-size:small;
     }
 
-    h5.card-title, p.card-text {
+    h5.card-title, p.card-text{
         text-align: center;
     }
+
+    a.card-text {
+display:flex;
+justify-content: center;
+align-items: center;
+    }
+
     #softSkills, #hardSkills {
         padding-left: 1em;
         padding-right: 1em;

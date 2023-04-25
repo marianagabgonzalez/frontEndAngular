@@ -79,21 +79,24 @@
         "titulo":"Lista de tareas",
         "descripcion":"Realizado con JavaScript",
         "fecha":"Fecha de realización: Marzo de 2023",
-        "link": "Link: https://github.com/marianagabgonzalez/trello"
+        "repo": "Link GitHub",
+        "link": "https://github.com/marianagabgonzalez/trello"
       },
       {
         "img":"./../assets/humaya.png",
         "titulo":"Humaya",
         "descripcion":"Realizado con HTML, CSS y Bootstrap",
         "fecha":"Fecha de realización: Marzo de 2023",
-        "link": "Link: https://github.com/marianagabgonzalez/Humaya"
+        "repo": "Link GitHub",
+        "link": "https://github.com/marianagabgonzalez/Humaya"
       },
       {
         "img":"./../assets/idcard.png",
         "titulo":"Portfolio",
         "descripcion":"Realizado con HTML, CSS y Bootstrap",
         "fecha":"Fecha de realización: Marzo de 2023",
-        "link": "Link: https://github.com/marianagabgonzalez/Humaya"
+        "repo": "Link GitHub",
+        "link": "https://github.com/marianagabgonzalez/portfolio-FrontEnd"
       }
     ],
     "softSkills": {
