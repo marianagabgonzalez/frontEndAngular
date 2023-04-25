@@ -1,1 +1,21 @@
-<p>experiencia works!</p>
+<div class="container-fluid" id="experiencia">
+<ul> 
+   <h4 class="h4">{{miPortfolio.expLaboralTit.titulo}}</h4>
+    <li *ngFor="let i of expList">
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img [src]="i.img" class="img-thumbnail rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{i.lugar}}</h5>
+          <p class="card-text">{{i.puesto}}</p>
+          <p class="card-text">{{i.fecha}}</p>
+        </div>
+      </div>    
+    </div>
+  </div>
+  </li>
+    </ul>
+  </div>

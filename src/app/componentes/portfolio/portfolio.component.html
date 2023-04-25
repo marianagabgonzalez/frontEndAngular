@@ -1,63 +1,27 @@
 
-<div class="container-fluid"  id="portfolio">
-    <!-- Portfolio Section Heading-->
-    <h4 class="page-section-heading text-center text-uppercase text-secondary mb-0">{{miPortfolio.portfolioImagenes.titulo}}</h4>
 
-    <!-- Portfolio Grid Items-->
-    <div class="row justify-content-center">
-        <!-- Portfolio Item 1-->
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img1" alt="..." />
+<div class="container-fluid" id="portfolio" width="100%">
+ 
+    <ul> 
+       <h4 class="h4">{{miPortfolio.portfolioTit.titulo}}</h4>
+        <li *ngFor="let i of pList">
+    <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+            <div class="img-container col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="logo">
+                <img [src]="i.img" class="img-fluid" alt="...">
+              </div>
+        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{i.titulo}}</h5>
+              <p class="card-text">{{i.descripcion}}</p>
+              <p class="card-text">{{i.fecha}}</p>
+              <p class="card-text">{{i.link}}</p>
             </div>
+          </div>
+        
         </div>
-        <!-- Portfolio Item 2-->
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img2" alt="..." />
-            </div>
-        </div>
-        <!-- Portfolio Item 3-->
-        <div class="col-md-6 col-lg-4 mb-5">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img3" alt="..." />
-            </div>
-        </div>
-        <!-- Portfolio Item 4-->
-        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img4" alt="..." />
-            </div>
-        </div>
-        <!-- Portfolio Item 5-->
-        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img5" alt="..." />
-            </div>
-        </div>
-        <!-- Portfolio Item 6-->
-        <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" [src]="miPortfolio.portfolioImagenes.img6" alt="..." />
-            </div>
-        </div>
-    </div>
-</div>
+      </div>
+      </li>
+        </ul>
+      </div>

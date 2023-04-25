@@ -23,57 +23,98 @@
       "parrafo1": "Me presento como una persona ágil, empática y orientada al logro de resultados. Además, cuento con capacidad para la resolución de conflictos, la comunicación efectiva, el aprendizaje continuo y la gestión del tiempo.",
       "parrafo2": "Me encuentro en búsqueda de un nuevo desafío laboral en donde pueda poner en práctica los conocimientos adquiridos a lo largo de mi formación, con el objetivo de continuar desarrollando mis habilidades y adquirir mayor experiencia en el área IT."
     },
+    "edTitulo": {
+"titulo": "EDUCACIÓN"
+    },
     "educacion": [
 {
+  "img":"./../assets/logoap2.png",
   "instituto": "Argentina Programa",
   "tituloObt": "Programadora Web Full Stack",
-  "año": "2022 - 2023"
+  "fecha": "2022 - 2023"
   
 },
 {
+  "img":"./../assets/logocodo.png",
   "instituto": "Codo a Codo",
 "tituloObt": "Programadora JavaScript - Node JS",
-"año": "2022 - 2022"
+"fecha": "2022 - 2022"
 },
 {
+  "img":"./../assets/logocivet.png",
   "instituto": "Civet",
   "tituloObt": "Metodologías Ágiles",
-  "año": "2022 - 2022"
+  "fecha": "2022 - 2022"
 },
 {
+  "img":"./../assets/logoegg.png",
   "instituto": "Egg",
   "tituloObt": "Programadora Web Full Stack - Java",
-  "año": "2021 - 2022"
+  "fecha": "2021 - 2022"
 }
     ],
+    "expLaboralTit":{
+        "titulo": "EXPERIENCIA LABORAL"
+      },
     "experienciaLaboral": [
       {
+      "img":"./../assets/logoosecac.jpg",
       "lugar": "Osecac",
       "puesto": "Administrativa",
       "fecha": "Enero 2013 - Julio 2020"
       },
       {
+        "img":"./../assets/logomc.jpg",
         "lugar": "Mc Donald's",
       "puesto": "Cajera",
       "fecha": "Enero 2010 - Noviembre 2012"
       }
     ],
-    "portfolioImagenes": {
-      "titulo":"Portfolio",
-      "img1":"./../assets/cabin.png",
-      "img2":"./../assets/cake.png",
-      "img3":"./../assets/circus.png",
-      "img4":"./../assets/game.png",
-      "img5":"./../assets/safe.png",
-      "img6":"./../assets/submarine.png"
+    "portfolioTit":{
+"titulo":"PORTFOLIO"
     },
-    "form": {
-      "titleForm":"CONTACTAME",
-      "nombre": "Nombre completo",
-      "email": "Email",
-      "tel": "Teléfono de contacto",
-      "mensaje": "Mensaje",
-      "button": "Enviar"
+    "portfolio": [
+      {
+        "img":"./../assets/project1.png",
+        "titulo":"Lista de tareas",
+        "descripcion":"Realizado con JavaScript",
+        "fecha":"Fecha de realización: Marzo de 2023",
+        "link": "Link: https://github.com/marianagabgonzalez/trello"
+      },
+      {
+        "img":"./../assets/humaya.png",
+        "titulo":"Humaya",
+        "descripcion":"Realizado con HTML, CSS y Bootstrap",
+        "fecha":"Fecha de realización: Marzo de 2023",
+        "link": "Link: https://github.com/marianagabgonzalez/Humaya"
+      },
+      {
+        "img":"./../assets/idcard.png",
+        "titulo":"Portfolio",
+        "descripcion":"Realizado con HTML, CSS y Bootstrap",
+        "fecha":"Fecha de realización: Marzo de 2023",
+        "link": "Link: https://github.com/marianagabgonzalez/Humaya"
+      }
+    ],
+    "softSkills": {
+      "title":"SOFT SKILLS",
+      "nombre1": "Organización",
+      "nombre2": "Resolución de conflictos",
+      "nombre3": "Comunicación efectiva",
+      "nombre4": "Facilidad de adaptación"
+    },
+    "hardSkills": {
+      "title":"HARD SKILLS",
+      "nombre1": "Java",
+      "nombre2": "JavaScript",
+      "nombre3": "Angular",
+      "nombre4": "HTML",
+      "nombre5": "CSS",
+      "nombre6": "Bootstrap",
+      "nombre7": "MySQL",
+      "nombre8": "Spring",
+      "nombre9":"GitHub",
+      "nombre10":"Inglés"
     },
     "footer": {
       "copyright": "© 2023 Copyright:",

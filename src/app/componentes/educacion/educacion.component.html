@@ -1,1 +1,21 @@
-<p>educacion works!</p>
+<div class="container-fluid" id="educacion">
+<ul>
+    <h4 class="h4">{{miPortfolio.edTitulo.titulo}}</h4>
+    <li *ngFor="let i of edList">
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4 col-sm-12">
+        <img [src]="i.img" class="img-thumbnail rounded-start" alt="...">
+      </div>
+      <div class="col-md-8 col-sm-12">
+        <div class="card-body">
+          <h5 class="card-title">{{i.instituto}}</h5>
+          <p class="card-text">{{i.tituloObt}}</p>
+          <p class="card-text">{{i.fecha}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </li>
+    </ul>
+</div>
