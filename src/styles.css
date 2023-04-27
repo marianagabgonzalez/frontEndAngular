@@ -43,7 +43,10 @@ a.nav-link {
 
 div.imagen {
     background-color: #f3ffeb;
-    padding: 10rem 5rem 5rem 5rem;
+    padding: 10rem 0rem 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
  
 h3 {

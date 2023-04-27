@@ -3,7 +3,7 @@
 <div class="container-fluid" id="portfolio" width="100%">
  
     <ul> 
-       <h4 class="h4">{{miPortfolio.portfolioTit.titulo}}</h4>
+       <h4 class="h4">{{miPortfolio.portfolioTit.titulo}} <i class="fa fa-plus-square-o"></i></h4>
         <li *ngFor="let i of pList">
     <div class="card mb-3" style="max-width: 100%;">
         <div class="row g-0">
@@ -16,7 +16,8 @@
               <h5 class="card-title">{{i.titulo}}</h5>
               <p class="card-text">{{i.descripcion}}</p>
               <p class="card-text">{{i.fecha}}</p>
-              <a class="card-text" [href]="i.link">{{i.repo}}</a>
+              <a class="card-text" [href]="i.link">{{i.repo}} </a>
+              <i class="fa fa-edit"></i><i class="fa fa-times-rectangle-o"></i>
             </div>
           </div>
         

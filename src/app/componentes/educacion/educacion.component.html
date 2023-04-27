@@ -1,6 +1,6 @@
 <div class="container-fluid" id="educacion">
 <ul>
-    <h4 class="h4">{{miPortfolio.edTitulo.titulo}}</h4>
+    <h4 class="h4">{{miPortfolio.edTitulo.titulo}} <i class="fa fa-plus-square-o"></i></h4>
     <li *ngFor="let i of edList">
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
@@ -12,6 +12,7 @@
           <h5 class="card-title">{{i.instituto}}</h5>
           <p class="card-text">{{i.tituloObt}}</p>
           <p class="card-text">{{i.fecha}}</p>
+          <i class="fa fa-edit"></i><i class="fa fa-times-rectangle-o"></i>
         </div>
       </div>
     </div>
